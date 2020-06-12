@@ -21,7 +21,7 @@ class TestStringMethods(unittest.TestCase):
         #check that s.split fails when the seperator is not a string
 
         with self.assertRaises(TypeError):
-            s.splite(2)
+            s.split(2)
 
 if __name__ == '__main__':
     unittest.main()
